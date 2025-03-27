@@ -10,6 +10,7 @@ import edu_icon from "./edu-icon.png";
 import graphics_icon from "./graphics-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
+import hecxensae from "./hecxensae.png";
 import logo_raph from "./logo_raph.png";
 import logo_raph_dark from "./logo_raph_dark.png";
 import mail_icon from "./mail_icon.png";
@@ -39,6 +40,7 @@ import figma_tool from "./tool-i-use/figma.png";
 import git_tool from "./tool-i-use/git.png";
 import langchain from "./tool-i-use/langchain.png";
 import next from "./tool-i-use/next.png";
+import pandas from "./tool-i-use/pandas.png";
 import postgresql_tool from "./tool-i-use/postgresql.png";
 import prisma_black from "./tool-i-use/prisma-black.png";
 import python from "./tool-i-use/python.png";
@@ -48,7 +50,6 @@ import seaborn from "./tool-i-use/seaborn.png";
 import supabase from "./tool-i-use/supabase.png";
 import tailwind from "./tool-i-use/tailwind.png";
 import ts from "./tool-i-use/ts.png";
-import pandas from "./tool-i-use/pandas.png";
 
 export const assets = {
   logo_raph,
@@ -63,6 +64,7 @@ export const assets = {
   vscode,
   expo_tool,
   postgresql_tool,
+  hecxensae,
 
   figma_tool,
 
@@ -168,7 +170,8 @@ export const infoList = [
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "HEC Paris X ENSAE PARIS",
+    programLogo: assets.hecxensae,
   },
   {
     icon: assets.project_icon,

@@ -54,10 +54,11 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            I am an experienced Frontend Developer with over a decade of
-            professional expertise in the field. Throughout my career, I have
-            had the privilege of collaborating with prestigious organizations,
-            contributing to their success and growth.
+            I am a web and mobile developer with a strong understanding of
+            market trends and business needs. I use the latest technologies to
+            create user-centric solutions, ensuring both functionality and an
+            exceptional user experience. I think fast, work efficiently, and
+            deliver on time.
           </p>
 
           <motion.div
@@ -66,25 +67,36 @@ const About = ({ isDarkMode }) => {
             transition={{ duration: 0.8, delay: 1 }}
             className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
           >
-            {infoList.map(({ icon, iconDark, title, description }, index) => (
-              <motion.li
-                whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 list-none"
-                key={index}
-              >
-                <Image
-                  src={isDarkMode ? iconDark : icon}
-                  alt={title}
-                  className="w-7 mt-3"
-                />
-                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
-                  {title}
-                </h3>
-                <p className="text-gray-600 text-sm dark:text-white/80">
-                  {description}
-                </p>
-              </motion.li>
-            ))}
+            {infoList.map(
+              ({ icon, iconDark, title, description, programLogo }, index) => (
+                <motion.li
+                  whileHover={{ scale: 1.05 }}
+                  className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50 list-none"
+                  key={index}
+                >
+                  <Image
+                    src={isDarkMode ? iconDark : icon}
+                    alt={title}
+                    className="w-7 mt-3"
+                  />
+                  <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
+                    {title}
+                  </h3>
+                  <p className="text-gray-600 text-sm dark:text-white/80">
+                    {description}
+                  </p>
+                  {programLogo && (
+                    <div className="mt-3">
+                      <Image
+                        src={programLogo}
+                        alt={`${title} Logo`}
+                        className="w-16 h-auto"
+                      />
+                    </div>
+                  )}
+                </motion.li>
+              )
+            )}
           </motion.div>
 
           <motion.h4

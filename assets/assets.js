@@ -32,17 +32,23 @@ import vscode from "./vscode.png";
 import web_icon from "./web-icon.png";
 
 // Import tools from tool-i-use directory
+import crewai from "./tool-i-use/crewai.png";
 import cursor from "./tool-i-use/cursor.png";
 import expo_tool from "./tool-i-use/expo.png";
 import figma_tool from "./tool-i-use/figma.png";
 import git_tool from "./tool-i-use/git.png";
+import langchain from "./tool-i-use/langchain.png";
 import next from "./tool-i-use/next.png";
 import postgresql_tool from "./tool-i-use/postgresql.png";
 import prisma_black from "./tool-i-use/prisma-black.png";
+import python from "./tool-i-use/python.png";
+import pytorch from "./tool-i-use/pytorch.png";
 import react_native from "./tool-i-use/react-native.png";
+import seaborn from "./tool-i-use/seaborn.png";
 import supabase from "./tool-i-use/supabase.png";
 import tailwind from "./tool-i-use/tailwind.png";
 import ts from "./tool-i-use/ts.png";
+import pandas from "./tool-i-use/pandas.png";
 
 export const assets = {
   logo_raph,
@@ -91,6 +97,12 @@ export const assets = {
   tailwind,
   prisma_black,
   react_native,
+  python,
+  pytorch,
+  seaborn,
+  crewai,
+  langchain,
+  pandas,
 };
 
 export const workData = [
@@ -185,5 +197,16 @@ export const toolsData = [
   {
     category: "Design Tools",
     tools: [assets.figma_tool, assets.tailwind],
+  },
+  {
+    category: "ML & Data Analysis",
+    tools: [
+      assets.python,
+      assets.pytorch,
+      assets.pandas,
+      assets.seaborn,
+      assets.crewai,
+      assets.langchain,
+    ],
   },
 ];

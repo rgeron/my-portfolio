@@ -37,6 +37,7 @@ import expo_tool from "./tool-i-use/expo.png";
 import figma_tool from "./tool-i-use/figma.png";
 import git_tool from "./tool-i-use/git.png";
 import next from "./tool-i-use/next.png";
+import postgresql_tool from "./tool-i-use/postgresql.png";
 import prisma_black from "./tool-i-use/prisma-black.png";
 import react_native from "./tool-i-use/react-native.png";
 import supabase from "./tool-i-use/supabase.png";
@@ -55,6 +56,7 @@ export const assets = {
   project_icon_dark,
   vscode,
   expo_tool,
+  postgresql_tool,
 
   figma_tool,
 
@@ -168,17 +170,17 @@ export const toolsData = [
   {
     category: "Development Tools",
     tools: [
-      assets.ts,
       assets.next,
+      assets.ts,
       assets.react_native,
-      assets.cursor,
-      assets.git_tool,
       assets.expo_tool,
+      assets.git_tool,
+      assets.cursor,
     ],
   },
   {
     category: "Database Tools",
-    tools: [assets.supabase, assets.prisma_black],
+    tools: [assets.postgresql_tool, assets.supabase, assets.prisma_black],
   },
   {
     category: "Design Tools",

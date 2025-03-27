@@ -33,6 +33,7 @@ import web_icon from "./web-icon.png";
 
 // Import tools from tool-i-use directory
 import cursor from "./tool-i-use/cursor.png";
+import expo_tool from "./tool-i-use/expo.png";
 import figma_tool from "./tool-i-use/figma.png";
 import git_tool from "./tool-i-use/git.png";
 import next from "./tool-i-use/next.png";
@@ -53,6 +54,7 @@ export const assets = {
   project_icon,
   project_icon_dark,
   vscode,
+  expo_tool,
 
   figma_tool,
 
@@ -172,4 +174,5 @@ export const toolsData = [
   assets.figma_tool,
   assets.prisma_black,
   assets.git_tool,
+  assets.expo_tool,
 ];

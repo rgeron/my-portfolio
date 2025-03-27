@@ -22,7 +22,6 @@ import menu_white from "./menu-white.png";
 import mobile_icon from "./mobile-icon.png";
 import mongodb from "./mongodb.png";
 import moon_icon from "./moon_icon.png";
-import profile_img from "./profile-img.png";
 import project_icon_dark from "./project-icon-dark.png";
 import project_icon from "./project-icon.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
@@ -54,7 +53,6 @@ export const assets = {
   logo_dark,
   mail_icon,
   mail_icon_dark,
-  profile_img,
   download_icon,
   hand_icon,
   header_bg_color,

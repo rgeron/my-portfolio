@@ -165,14 +165,23 @@ export const infoList = [
 ];
 
 export const toolsData = [
-  assets.ts,
-  assets.next,
-  assets.react_native,
-  assets.tailwind,
-  assets.supabase,
-  assets.cursor,
-  assets.figma_tool,
-  assets.prisma_black,
-  assets.git_tool,
-  assets.expo_tool,
+  {
+    category: "Development Tools",
+    tools: [
+      assets.ts,
+      assets.next,
+      assets.react_native,
+      assets.cursor,
+      assets.git_tool,
+      assets.expo_tool,
+    ],
+  },
+  {
+    category: "Database Tools",
+    tools: [assets.supabase, assets.prisma_black],
+  },
+  {
+    category: "Design Tools",
+    tools: [assets.figma_tool, assets.tailwind],
+  },
 ];

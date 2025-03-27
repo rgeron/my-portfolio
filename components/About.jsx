@@ -96,26 +96,35 @@ const About = ({ isDarkMode }) => {
             Tools I use
           </motion.h4>
 
-          <motion.ul
+          <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 0.6 }}
-            className="flex flex-wrap items-center gap-3 sm:gap-5 max-w-2xl"
+            className="flex flex-col gap-6 max-w-2xl"
           >
-            {toolsData.map((tool, index) => (
-              <motion.li
-                whileHover={{ scale: 1.1 }}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white p-1"
-                key={index}
-              >
-                <Image
-                  src={tool}
-                  alt={`Tool ${index + 1}`}
-                  className="w-full h-full object-contain"
-                />
-              </motion.li>
+            {toolsData.map((category, categoryIndex) => (
+              <div key={categoryIndex} className="mb-4">
+                <h5 className="text-sm font-medium mb-2 text-gray-600 dark:text-white/70">
+                  {category.category}
+                </h5>
+                <ul className="flex flex-wrap items-center gap-3 sm:gap-5">
+                  {category.tools.map((tool, index) => (
+                    <motion.li
+                      whileHover={{ scale: 1.1 }}
+                      className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white p-1"
+                      key={index}
+                    >
+                      <Image
+                        src={tool}
+                        alt={`Tool ${index + 1}`}
+                        className="w-full h-full object-contain"
+                      />
+                    </motion.li>
+                  ))}
+                </ul>
+              </div>
             ))}
-          </motion.ul>
+          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>

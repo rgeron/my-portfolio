@@ -13,8 +13,8 @@ import git from "./git.png";
 import graphics_icon from "./graphics-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
-import logo from "./logo.png";
-import logo_dark from "./logo_dark.png";
+import logo_raph from "./logo_raph.png";
+import logo_raph_dark from "./logo_raph_dark.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import menu_black from "./menu-black.png";
@@ -36,6 +36,8 @@ import vscode from "./vscode.png";
 import web_icon from "./web-icon.png";
 
 export const assets = {
+  logo_raph,
+  logo_raph_dark,
   user_image,
   code_icon,
   code_icon_dark,
@@ -49,8 +51,6 @@ export const assets = {
   git,
   mongodb,
   right_arrow_white,
-  logo,
-  logo_dark,
   mail_icon,
   mail_icon_dark,
   download_icon,

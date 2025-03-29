@@ -110,21 +110,16 @@ export const assets = {
 export const workData = [
   {
     title: "Frontend project",
-    description: "Web Design",
+    description: "Website for a startup",
     bgImage: "/work-1.png",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
+    title: "Know Yourself App",
+    description: "Mobile App integrating ChatGPT.",
     bgImage: "/work-2.png",
   },
   {
-    title: "Photography site",
-    description: "Web Design",
-    bgImage: "/work-3.png",
-  },
-  {
-    title: "UI/UX designing",
+    title: "UI/UX designing for a mobile app",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
   },
@@ -202,14 +197,7 @@ export const toolsData = [
     tools: [assets.figma_tool, assets.tailwind],
   },
   {
-    category: "ML & Data Analysis",
-    tools: [
-      assets.python,
-      assets.pytorch,
-      assets.pandas,
-      assets.seaborn,
-      assets.crewai,
-      assets.langchain,
-    ],
+    category: "AI Integration Tools",
+    tools: [assets.python, assets.crewai, assets.langchain],
   },
 ];

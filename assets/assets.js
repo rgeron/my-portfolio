@@ -148,8 +148,8 @@ export const serviceData = [
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Data and Machine Learning skills",
+    description: "I am able to integrate Agents to your projects.",
     link: "",
   },
 ];

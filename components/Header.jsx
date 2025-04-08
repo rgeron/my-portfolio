@@ -36,8 +36,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        I am a HEC Paris and ENSAE Paris student with a passion for building
-        products that help people.
+        HEC Paris x ENSAE student with a passion for building impactful
+        products.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

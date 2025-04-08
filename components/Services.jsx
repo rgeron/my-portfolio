@@ -35,8 +35,8 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-lg"
       >
-        It's important for me to give my customers all the keys they need to own
-        the code and be autonomous in managing it.
+        I combine technical expertise with business understanding to deliver solutions 
+        that not only work flawlessly but also drive real value for your organization.
       </motion.p>
 
       <motion.div

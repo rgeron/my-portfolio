@@ -110,8 +110,9 @@ export const assets = {
 export const workData = [
   {
     title: "Frontend project",
-    description: "Website for a startup",
+    description: "Personal website for a freelance consultant",
     bgImage: "/work-1.png",
+    url: "https://annegeron.com",
   },
   {
     title: "Know Yourself App",
@@ -119,7 +120,7 @@ export const workData = [
     bgImage: "/work-2.png",
   },
   {
-    title: "UI/UX designing for a mobile app",
+    title: "UI/UX project on Figma",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
   },

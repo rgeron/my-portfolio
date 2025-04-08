@@ -115,10 +115,16 @@ export const workData = [
     url: "https://annegeron.com",
   },
   {
-    title: "Know Yourself App",
-    description: "Mobile App integrating ChatGPT.",
-    bgImage: "/work-2.png",
+    title: "Ticket office website project",
+    description: "Website for a drama club",
+    bgImage: "/work-3.png",
+    url: "https://doublejeuhec.fr",
   },
+  // {
+  //   title: "Know Yourself App",
+  //   description: "Mobile App integrating ChatGPT.",
+  //   bgImage: "/work-2.png",
+  // },
   {
     title: "UI/UX project on Figma",
     description: "UI/UX Design",

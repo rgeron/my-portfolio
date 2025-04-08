@@ -90,13 +90,13 @@ const About = ({ isDarkMode }) => {
         </motion.div>
 
         {/* Image and Tools section side by side */}
-        <div className="flex flex-col lg:flex-row items-start justify-center w-full gap-10 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-center justify-center w-full gap-10 lg:gap-20">
           {/* Image section */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="w-64 sm:w-80 rounded-3xl max-w-none self-center lg:self-start"
+            className="w-72 sm:w-96 rounded-3xl max-w-none self-center"
           >
             <Image
               src={assets.user_image}

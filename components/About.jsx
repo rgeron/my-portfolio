@@ -61,7 +61,7 @@ const About = ({ isDarkMode }) => {
             deliver on time.
           </p>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
@@ -97,7 +97,7 @@ const About = ({ isDarkMode }) => {
                 </motion.li>
               )
             )}
-          </motion.div>
+          </motion.div> */}
 
           <motion.h4
             initial={{ y: 20, opacity: 0 }}

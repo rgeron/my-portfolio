@@ -178,7 +178,6 @@ export const toolsData = [
       assets.react_native,
       assets.expo_tool,
       assets.git_tool,
-      assets.cursor,
     ],
   },
   {

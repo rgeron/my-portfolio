@@ -25,18 +25,16 @@ const Footer = ({ isDarkMode }) => {
         <p>© 2025 Raphaël Géron. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://instagram.com/greatstackdev">
+            <a target="_blank" href="https://github.com/rgeron">
               GitHub
             </a>
           </li>
           <li>
-            <a target="_blank" href="https://instagram.com/greatstackdev">
+            <a
+              target="_blank"
+              href="https://linkedin.com/in/raphaël-géron-241571164"
+            >
               LinkedIn
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://instagram.com/greatstackdev">
-              Twitter
             </a>
           </li>
         </ul>

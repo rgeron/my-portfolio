@@ -127,30 +127,22 @@ export const workData = [
 
 export const serviceData = [
   {
-    icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    icon: assets.next,
+    title: "Web Development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
+      "Modern, responsive web applications built with Next.js framework. I create performant and SEO-friendly sites with server-side rendering and optimized loading times.",
   },
   {
-    icon: assets.ui_icon,
-    title: "UI/UX design",
+    icon: assets.react_native,
+    title: "Mobile Development",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
-    link: "",
+      "Cross-platform mobile applications using React Native. Native-like experience with a single codebase for both iOS and Android platforms.",
   },
   {
-    icon: assets.graphics_icon,
-    title: "Data and Machine Learning skills",
-    description: "I am able to integrate Agents to your projects.",
-    link: "",
+    icon: assets.figma_tool,
+    title: "UI/UX Design",
+    description:
+      "User-focused design solutions created in Figma. I craft intuitive interfaces with clean aesthetics that prioritize user experience and accessibility.",
   },
 ];
 

@@ -1,0 +1,168 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Police Times New Roman
+% Marges optimisées pour tenir sur une page
+\usepackage[left=0.45in,top=0.3in,right=0.45in,bottom=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+% --- COULEURS ET LIENS ---
+\definecolor{linkblue}{RGB}{0,0,255}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+    pdfborderstyle={/S/U/W 1}
+}
+
+% --- FORMATAGE DES TITRES ---
+\titleformat{\section}
+  {\normalfont\large\bfseries\uppercase}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+
+\titlespacing{\section}{0pt}{6pt}{3pt}
+
+% --- PARAMETRES COLONNES ---
+\newlength{\datecolwidth}
+\setlength{\datecolwidth}{2.4cm}
+
+% --- CONFIGURATION DES LISTES ---
+\setlist[itemize]{
+    label=-, 
+    leftmargin=*, 
+    nosep, 
+    before=\vspace{-0.5\baselineskip}, 
+    after=\vspace{0pt}
+}
+
+% --- MACRO CV OPTIMISÉE POUR L'ALIGNEMENT ---
+% #1=Date, #2=Entité, #3=Lieu, #4=Titre/Diplôme, #5=Description
+% Changement clé : Entité et Titre sont dans la MEME cellule séparés par \newline
+% Cela garantit que la ligne 2 de la date s'aligne avec la ligne 2 du texte (Titre)
+\newcommand{\CVItem}[5]{%
+    \noindent%
+    \begin{tabularx}{\textwidth}{@{}p{\datecolwidth} X@{}}
+        #1 & \textbf{#2} \hfill #3 \newline \textit{#4} \\ % Entité et Titre fusionnés
+           & #5 
+    \end{tabularx}%
+    \vspace{2pt}%
+}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- EN-TÊTE CORRIGÉ (ALIGNEMENT PARFAIT) ---
+% Utilisation d'un tabular pour forcer le centrage relatif strict
+\begin{center}
+    \begin{tabular}{c}
+        {\huge \textbf{Nicolas Grimaldi}} \\[3pt]
+        \href{mailto:Nicolas.grimaldi@hec.edu}{Nicolas.grimaldi@hec.edu} \ $|$ \ +33 6 48 32 96 74 \ $|$ \ \href{https://www.linkedin.com/in/nicolas-grimaldi-a893b6246/}{Linkedin}
+    \end{tabular}
+\end{center}
+
+\vspace{-8pt}
+
+% --- EDUCATION ---
+\section{Education}
+
+\CVItem{2025 -- 2027}
+    {ENSAE, Institut Polytechnique de Paris}
+    {Paris, France}
+    {Master in Science | Double Degree with HEC Paris}
+    {Top-tier French Grande École specializing in statistics, data science, economics, and quantitative finance \newline
+     Relevant courses: Time Series Analysis, Stochastic Process, Statistics, Machine Learning}
+
+\CVItem{2023 -- 2027}
+    {HEC Paris}
+    {Paris, France}
+    {Master in Management}
+    {Ranked \#1 Master in Management by QS \newline
+     Relevant courses: Financial Economics, Markets Finance, Data Modelling, Accounting, Data Science \newline
+     GPA: 3.9 / 4.0}
+
+\CVItem{2023 -- 2024}
+    {Université Paris-Saclay}
+    {Versailles, France}
+    {Bachelor’s degree in Mathematics | In parallel with First Year at HEC}
+    {Ranked \#2 University for Mathematics in the world by Shanghai Ranking \newline
+     Relevant courses: Advanced Probability, Optimization, Python \newline
+     GPA: 4/4}
+
+\CVItem{2021 -- 2023}
+    {Lycée Notre-Dame du Grandchamp}
+    {Versailles, France}
+    {Classes préparatoires, Intensive program for entrance to top French Business schools}
+    {Majors: Advanced Mathematics (Algebra, Analysis, Probability) and Geopolitics}
+
+% --- PROFESSIONAL EXPERIENCE ---
+\section{Professional Experience}
+
+% Utilisation de \newline dans la date pour aligner l'année avec le poste
+\CVItem{Oct -- Present \newline 2025 -- 2026}
+    {Red River West}
+    {Paris, France}
+    {Data Science assistant}
+    {\begin{itemize}
+        \item Developing and validating predictive startup survival models.
+    \end{itemize}}
+
+\CVItem{March -- Sept \newline 2025}
+    {QuantCube Technology}
+    {Paris, France}
+    {Data Research Intern}
+    {\begin{itemize}
+        \item Led an end-to-end research project designing a completeness score to measure coverage and reliability of corporate asset data.
+        \item Collected, cleaned, and structured datasets by linking financial indicators and validated assets, enabling quantitative analysis.
+        \item Implemented predictive models (Random Forests, Gradient Boosting) to estimate missing asset data.
+        \item Benchmarked models and delivered sector-level insights to guide database enrichment strategies.
+    \end{itemize}}
+
+\CVItem{2023 -- 2025}
+    {Private Mathematics Teacher}
+    {Paris, France}
+    {Tutor}
+    {\begin{itemize}
+        \item Provided personalised tutoring to students in preparatory classes for French business schools (ECG), with a focus on advanced mathematics to prepare for competitive entrance exams.
+        \item 3 out of the 4 students I coached reached the top 3 of their class in math.
+    \end{itemize}}
+
+% --- EXTRACURRICULAR ACTIVITIES ---
+\section{Extracurricular Activities}
+
+\CVItem{2025 -- Present}
+    {\href{https://goodtoshare.io}{GoodToShare.io}}
+    {Paris, France}
+    {Co-founder}
+    {\begin{itemize}
+        \item Developed a marketplace enabling users to monetize networks via qualified business introductions.
+        \item Designed platform connecting high-quality solutions with decision-makers via trusted community referrals.
+    \end{itemize}}
+
+\CVItem{Sept -- June \newline 2023 -- 2025}
+    {HEC DataMinds}
+    {Jouy-en-Josas, France}
+    {Member / Analyst}
+    {\begin{itemize}
+        \item Developed Python/VBA demand-forecasting models, improving inventory accuracy by 15\%.
+    \end{itemize}}
+
+% --- SKILLS & INTERESTS ---
+\section{Skills \& Interests}
+
+\noindent
+\begin{tabularx}{\textwidth}{@{}p{\datecolwidth} X@{}}
+    \textbf{Languages} & French (native), English (fluent, TOEFL IBT: 115/120), Spanish (B2 intermediate) \\
+    \textbf{IT Skills} & Python, SQL, VBA, C++, Bloomberg Terminal \\
+    \textbf{Certifications} & Hi Paris! Data Bootcamp (with Ecole Polytechnique), Machine Learning for Finance in Python (Datacamp), Machine Learning and Deep Learning (Coursera). \\
+    \textbf{Interests} & Soccer (Vice-captain, HEC men’s team), Chess (1900 elo on chess.com)
+\end{tabularx}
+
+\end{document}

@@ -36,7 +36,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
                         src={isDarkMode ? assets.logo_raph_dark : assets.logo_raph}
                         alt=''
                         fill
-                        className="object-contain object-left"
+                        className={`object-contain object-left ${isDarkMode ? "p-1" : ""}`}
                         priority
                     />
                 </a>

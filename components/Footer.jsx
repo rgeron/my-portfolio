@@ -17,24 +17,24 @@ const Footer = ({ isDarkMode }) => {
             alt=""
             className="w-6"
           />
-          raphael.geron@hec.edu
+          Nicolas.grimaldi@hec.edu
         </div>
       </div>
 
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
-        <p>© 2025 Raphaël Géron. All rights reserved.</p>
+        <p>© 2025 Nicolas Grimaldi. All rights reserved.</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="https://github.com/rgeron">
-              GitHub
+            <a target="_blank" href="https://www.linkedin.com/in/nicolas-grimaldi-a893b6246/">
+              LinkedIn
             </a>
           </li>
           <li>
             <a
               target="_blank"
-              href="https://linkedin.com/in/raphaël-géron-241571164"
+              href="mailto:Nicolas.grimaldi@hec.edu"
             >
-              LinkedIn
+              Email
             </a>
           </li>
         </ul>

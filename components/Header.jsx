@@ -18,7 +18,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hi! I'm Raphaël Géron{" "}
+        Hi! I'm Nicolas Grimaldi{" "}
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </motion.h3>
       <motion.h1
@@ -27,7 +27,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        full stack dev based in Paris.
+        data science enthusiast based in Paris.
       </motion.h1>
 
       <motion.p
@@ -36,8 +36,8 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        HEC Paris x ENSAE student with a passion for building impactful
-        products.
+        HEC Paris x ENSAE student with a passion for data science and
+        quantitative finance.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

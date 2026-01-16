@@ -12,8 +12,8 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - Raphaël Géron",
-  description: "HEC x ENSAE student - full stack dev",
+  title: "Portfolio - Nicolas Grimaldi",
+  description: "HEC x ENSAE student - Data Science & Quantitative Finance",
 };
 
 export default function RootLayout({ children }) {

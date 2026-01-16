@@ -43,11 +43,11 @@ const About = ({ isDarkMode }) => {
           className="w-full text-center"
         >
           <p className="mb-4 mx-auto max-w-3xl font-Ovo text-lg">
-            I am a web and mobile developer with a strong understanding of
-            market trends and business needs. I use the latest technologies to
-            create user-centric solutions, ensuring both functionality and an
-            exceptional user experience. I think fast, work efficiently, and
-            deliver on time.
+            I am a data science enthusiast with a strong background in
+            mathematics, statistics, and quantitative finance. Currently
+            pursuing a double degree at HEC Paris and ENSAE, I leverage machine
+            learning and predictive modeling to solve complex business problems.
+            I think analytically, work efficiently, and deliver actionable insights.
           </p>
 
           {/* <motion.div

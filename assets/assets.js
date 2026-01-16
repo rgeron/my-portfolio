@@ -109,47 +109,41 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Personal website for a freelance consultant",
+    title: "GoodToShare.io",
+    description: "Marketplace for monetizing business introductions",
     bgImage: "/work-1.png",
-    url: "https://annegeron.com",
+    url: "https://goodtoshare.io",
   },
   {
-    title: "Ticket office website project",
-    description: "Website for a drama club",
-    bgImage: "/work-3.png",
-    url: "https://doublejeuhec.fr",
+    title: "QuantCube Research",
+    description: "Data completeness scoring & predictive modeling",
+    bgImage: "/work-2.png",
   },
-  // {
-  //   title: "Know Yourself App",
-  //   description: "Mobile App integrating ChatGPT.",
-  //   bgImage: "/work-2.png",
-  // },
   {
-    title: "UI/UX project on Figma",
-    description: "UI/UX Design",
+    title: "Demand Forecasting",
+    description: "Python/VBA models for HEC DataMinds",
     bgImage: "/work-4.png",
   },
 ];
 
 export const serviceData = [
   {
-    icon: assets.next,
-    title: "Web Development",
+    icon: assets.python,
+    title: "Data Science",
     description:
-      "Modern, responsive web applications built with Next.js framework. I create performant and SEO-friendly sites with server-side rendering and optimized loading times.",
+      "End-to-end data projects from collection to insights. I design predictive models using Random Forests, Gradient Boosting, and time series analysis to solve complex business problems.",
   },
   {
-    icon: assets.react_native,
-    title: "Mobile Development",
+    icon: assets.pytorch,
+    title: "Machine Learning",
     description:
-      "Cross-platform mobile applications using React Native. Native-like experience with a single codebase for both iOS and Android platforms.",
+      "Building and deploying ML models for classification, regression, and forecasting. Experienced with scikit-learn, PyTorch, and production-ready pipelines.",
   },
   {
-    icon: assets.figma_tool,
-    title: "UI/UX Design",
+    icon: assets.pandas,
+    title: "Quantitative Analysis",
     description:
-      "User-focused design solutions created in Figma. I craft intuitive interfaces with clean aesthetics that prioritize user experience and accessibility.",
+      "Financial modeling and quantitative research. I leverage statistical methods and programming to analyze markets, build trading strategies, and assess risks.",
   },
 ];
 
@@ -158,7 +152,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "Python, SQL, VBA, C++, Bloomberg Terminal",
   },
   {
     icon: assets.edu_icon,
@@ -171,31 +165,26 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Data science & startup projects",
   },
 ];
 
 export const toolsData = [
   {
-    category: "Development Tools",
+    category: "Data Science & ML",
     tools: [
-      assets.next,
-      assets.ts,
-      assets.react_native,
-      assets.expo_tool,
-      assets.git_tool,
+      assets.python,
+      assets.pytorch,
+      assets.pandas,
+      assets.seaborn,
     ],
   },
   {
-    category: "Database Tools",
-    tools: [assets.postgresql_tool, assets.supabase, assets.prisma_black],
+    category: "Database & Analysis",
+    tools: [assets.postgresql_tool, assets.supabase],
   },
   {
-    category: "Design Tools",
-    tools: [assets.figma_tool, assets.tailwind],
-  },
-  {
-    category: "AI Integration Tools",
-    tools: [assets.python, assets.crewai, assets.langchain],
+    category: "Development",
+    tools: [assets.git_tool, assets.next, assets.ts],
   },
 ];

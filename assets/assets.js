@@ -12,7 +12,7 @@ import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
 import hecxensae from "./hecxensae.png";
 import logo_raph from "./logo_nicolas.svg";
-import logo_raph_dark from "./logo_nicolas_dark.svg";
+import logo_raph_dark from "./logo_nicolas_dark_v2.png";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import menu_black from "./menu-black.png";
@@ -116,14 +116,14 @@ export const workData = [
   },
   {
     title: "Polymarket Top Forecaster",
-    description: "#30,000 worldwide • #1,500 in Economics — Inflation predictions using ML models",
+    description: "Top 2% worldwide • #26,351 — Inflation predictions using ML models",
     bgImage: "/work-2.png",
-    url: "https://polymarket.com",
+    url: "https://polymarket.com/profile/0x27c4E4DBAC53b12326EB94f92eb4700A7EdeA6Be",
   },
   {
     title: "Currently Building...",
     description: "Trump Speech Predictor — Real-time prediction model for Polymarket",
-    bgImage: "/work-4.png",
+    bgImage: "/work-4.jpg",
   },
 ];
 

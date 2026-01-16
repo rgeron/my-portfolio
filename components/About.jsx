@@ -44,7 +44,7 @@ const About = ({ isDarkMode }) => {
         >
           <p className="mb-4 mx-auto max-w-3xl font-Ovo text-lg">
             I am a data science enthusiast with a strong background in
-            mathematics, statistics, and quantitative finance. Currently
+            mathematics, statistics, and business. Currently
             pursuing a double degree at HEC Paris and ENSAE, I leverage machine
             learning and predictive modeling to solve complex business problems.
             I think analytically, work efficiently, and deliver actionable insights.
@@ -125,23 +125,23 @@ const About = ({ isDarkMode }) => {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 0.6 }}
-              className="grid grid-cols-2 gap-4"
+              className="flex flex-col gap-4"
             >
               <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
-                <p className="text-3xl font-bold text-gray-800 dark:text-white">#30,000</p>
-                <p className="text-sm text-gray-600 dark:text-white/70">Polymarket Global Ranking</p>
+                <p className="text-lg font-semibold text-gray-800 dark:text-white">Data Science Assistant</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">at Red River West</p>
               </div>
               <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
-                <p className="text-3xl font-bold text-gray-800 dark:text-white">#1,500</p>
-                <p className="text-sm text-gray-600 dark:text-white/70">Economics Category</p>
+                <p className="text-lg font-semibold text-gray-800 dark:text-white">Data Analyst</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">at QuantCube Technology</p>
               </div>
               <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
-                <p className="text-3xl font-bold text-gray-800 dark:text-white">115/120</p>
-                <p className="text-sm text-gray-600 dark:text-white/70">TOEFL iBT Score</p>
+                <p className="text-lg font-semibold text-gray-800 dark:text-white">Data Science & Statistics</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">studied at ENSAE Paris</p>
               </div>
               <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
-                <p className="text-3xl font-bold text-gray-800 dark:text-white">3.9</p>
-                <p className="text-sm text-gray-600 dark:text-white/70">GPA at HEC Paris</p>
+                <p className="text-lg font-semibold text-gray-800 dark:text-white">Business & Finance</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">studied at HEC Paris</p>
               </div>
             </motion.div>
           </motion.div>

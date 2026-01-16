@@ -27,7 +27,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        data science enthusiast based in Paris.
+        Data Science enthusiast based in Paris.
       </motion.h1>
 
       <motion.p
@@ -37,7 +37,7 @@ const Header = () => {
         className="max-w-2xl mx-auto font-Ovo"
       >
         HEC Paris x ENSAE student with a passion for data science and
-        quantitative finance.
+        web3 prediction markets.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

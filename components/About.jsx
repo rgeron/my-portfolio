@@ -1,4 +1,4 @@
-import { assets, toolsData } from "@/assets/assets";
+import { assets } from "@/assets/assets";
 import { motion } from "motion/react";
 import Image from "next/image";
 
@@ -105,7 +105,7 @@ const About = ({ isDarkMode }) => {
             />
           </motion.div>
 
-          {/* Tools section */}
+          {/* Achievements section */}
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -118,37 +118,31 @@ const About = ({ isDarkMode }) => {
               transition={{ delay: 1.3, duration: 0.5 }}
               className="text-center lg:text-left mt-4 mb-8 text-gray-700 font-Ovo dark:text-white/80 text-xl"
             >
-              Tools I use
+              Highlights
             </motion.h4>
 
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 1.5, duration: 0.6 }}
-              className="flex flex-col gap-8"
+              className="grid grid-cols-2 gap-4"
             >
-              {toolsData.map((category, categoryIndex) => (
-                <div key={categoryIndex} className="mb-2">
-                  <h5 className="text-center lg:text-left text-sm font-medium mb-3 text-gray-600 dark:text-white/70">
-                    {category.category}
-                  </h5>
-                  <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-5">
-                    {category.tools.map((tool, index) => (
-                      <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 bg-white p-1"
-                        key={index}
-                      >
-                        <Image
-                          src={tool}
-                          alt={`${category.category} Tool ${index + 1}`}
-                          className="w-full h-full object-contain"
-                        />
-                      </motion.div>
-                    ))}
-                  </div>
-                </div>
-              ))}
+              <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
+                <p className="text-3xl font-bold text-gray-800 dark:text-white">#30,000</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">Polymarket Global Ranking</p>
+              </div>
+              <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
+                <p className="text-3xl font-bold text-gray-800 dark:text-white">#1,500</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">Economics Category</p>
+              </div>
+              <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
+                <p className="text-3xl font-bold text-gray-800 dark:text-white">115/120</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">TOEFL iBT Score</p>
+              </div>
+              <div className="p-4 border border-gray-300 rounded-xl dark:border-white/20">
+                <p className="text-3xl font-bold text-gray-800 dark:text-white">3.9</p>
+                <p className="text-sm text-gray-600 dark:text-white/70">GPA at HEC Paris</p>
+              </div>
             </motion.div>
           </motion.div>
         </div>

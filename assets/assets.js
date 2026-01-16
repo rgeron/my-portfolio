@@ -11,8 +11,8 @@ import graphics_icon from "./graphics-icon.png";
 import hand_icon from "./hand-icon.png";
 import header_bg_color from "./header-bg-color.png";
 import hecxensae from "./hecxensae.png";
-import logo_raph from "./logo_raph.png";
-import logo_raph_dark from "./logo_raph_dark.png";
+import logo_raph from "./logo_nicolas.svg";
+import logo_raph_dark from "./logo_nicolas_dark.svg";
 import mail_icon from "./mail_icon.png";
 import mail_icon_dark from "./mail_icon_dark.png";
 import menu_black from "./menu-black.png";
@@ -115,13 +115,14 @@ export const workData = [
     url: "https://goodtoshare.io",
   },
   {
-    title: "QuantCube Research",
-    description: "Data completeness scoring & predictive modeling",
+    title: "Polymarket Top Forecaster",
+    description: "#30,000 worldwide • #1,500 in Economics — Inflation predictions using ML models",
     bgImage: "/work-2.png",
+    url: "https://polymarket.com",
   },
   {
-    title: "Demand Forecasting",
-    description: "Python/VBA models for HEC DataMinds",
+    title: "Currently Building...",
+    description: "Trump Speech Predictor — Real-time prediction model for Polymarket",
     bgImage: "/work-4.png",
   },
 ];

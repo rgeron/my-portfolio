@@ -126,9 +126,11 @@ export const workData = [
   //   bgImage: "/work-2.png",
   // },
   {
-    title: "UI/UX project on Figma",
-    description: "UI/UX Design",
+    title: "Good To Share",
+    description:
+      "Marketplace allowing users to earn money doing business introductions.",
     bgImage: "/work-4.png",
+    url: "https://goodtoshare.io",
   },
 ];
 
